@@ -1,0 +1,142 @@
+body
+{
+	background-color: gray;
+}
+h1
+{
+	color: greenyellow;
+	text-align: center;
+}
+.ig
+{
+	font-style: normal;
+	font-size: medium;
+	background-color: orange;
+	margin:  0px 20px 20px 20px;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-left: 5px solid black ;
+}
+.content
+{
+	text-align: center;
+	font-size: large;
+	color: blue;
+	border: 5px solid black;
+    margin-top: 0px;
+	background-color: whitesmoke;
+	padding: 5px;
+	height: 50px;
+	position: relative;
+	float: right;
+}
+*{
+	box-sizing: border-box;
+}
+.jj
+{
+	font-style: normal;
+	color: black;
+	background-color: orangered;
+	margin:  0px 20px 20px 20px;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-left: 5px solid black;
+}
+.character
+{
+	font-style: normal;
+	font-size: medium;
+	color: black;
+	background-color: lightpink;
+	margin:  0px 20px 20px 20px;
+	border-right: 5px solid black;
+	border-left: 5px solid black;	
+	border-bottom: 5px solid black;
+}
+    /*  Large devices like laptop */
+
+
+@media (min-width: 992px)
+{
+	.col-lg-4{
+		float: left;
+		width: 33.33%;
+	}
+	.name1{
+		color: gold;
+		margin-right: 20px;
+		background-color: blue;
+	}
+	.name2{
+		background-color: purple;
+		margin-right: 20px;
+		color: black;
+	}
+	.name3{
+		background-color: red;
+		margin-right: 20px;
+		color: black;
+	}
+}
+     /* Medium devices like tablets */
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-md-6,.col-md-12{
+		float: left;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+	.name3{
+		width: 100px;
+		height: 55px;
+		background-color: red;
+		color: black;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	.name1{
+		color: gold;
+		margin-right: 20px;
+		background-color: blue;
+	}
+	.name2{
+		background-color: purple;
+		margin-right: 20px;
+		color: black;
+	}
+
+}
+
+    /* Small devices like mobile phones*/
+
+@media (min-width: 0px) and (max-width: 767px)
+{
+	.col-sm-12{
+		float: left;
+		width: 100%;
+	}
+	.content{
+		margin-right: 30px;
+	}
+	.name1{
+		color: gold;
+		margin-right: 20px;
+		background-color: blue;
+	}
+	.name2{
+		background-color: purple;
+		margin-right: 20px;
+		color: black;
+	}
+	.name3{
+		background-color: red;
+		color: black;
+		margin-right: 20px;
+	}
+}
